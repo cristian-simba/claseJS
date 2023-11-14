@@ -64,3 +64,22 @@ const newProduct = {
 }
 
 console.log(newProduct)
+
+const profileUser = ["Cristian", 21, true, "Quito"]
+const skills = ["front", "back"]
+
+// ARRAYS
+// push ingresa al último
+// unsfhit ingresa al inicio
+// pop elimina el último
+// shift elimina el primero 
+
+profileUser.shift(skills)
+
+console.log(profileUser)
+
+const findOne = profileUser.find((e)=> e == "Juan")
+const findTwo = profileUser.find((e)=> e == "Cristian")
+
+console.log(findOne)
+console.log(findTwo)
